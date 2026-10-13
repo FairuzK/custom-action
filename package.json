@@ -1,0 +1,27 @@
+{
+  "name": "custom-action",
+  "version": "1.0.0",
+  "description": "A repo to demonstrate CI/CD custom actions with an example.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FairuzK/custom-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/FairuzK/custom-action/issues"
+  },
+  "homepage": "https://github.com/FairuzK/custom-action#readme",
+  "dependencies": {
+    "@actions/core": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.45.0"
+  }
+}
